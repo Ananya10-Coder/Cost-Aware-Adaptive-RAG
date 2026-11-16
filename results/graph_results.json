@@ -1,0 +1,325 @@
+{
+  "questions": 5,
+  "mean_recall_at_5": 0.9333333333333332,
+  "mean_mrr": 1.0,
+  "results": [
+    {
+      "question_id": "2hop__423045_570226",
+      "question": "The Paracel islands are share a province with what city?",
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieved": [
+        {
+          "passage_id": "122fbeaae5cb5056450a",
+          "score": 0.7,
+          "lexical_score": 1.0,
+          "graph_score": 0.0,
+          "title": "Nada, Hainan",
+          "text": "Nada () is a town in Danzhou city, Hainan province, China. Nada was established more than 400 years ago, and has been the administrative seat and urban center of Danzhou (formerly Dan County) since 1958. It has a population of 220,000 as of 2010.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "99577b088842ecf2ebbd",
+          "score": 0.60864,
+          "lexical_score": 0.86949,
+          "graph_score": 0.0,
+          "title": "Hainan Island incident",
+          "text": "The EP-3 was operating about away from the PRC island province of Hainan, and about away from the Chinese military installation in the Paracel Islands, when it was intercepted by two J-8 fighters. A collision between the EP-3 and one of the J-8s caused the death of a PRC pilot, and the EP-3 was forced to make an emergency landing on Hainan. The 24 crew members were detained and interrogated by the Chinese authorities until a statement was delivered by the United States government regarding the incident. The exact phrasing of this document was intentionally ambiguous and allowed both countries to save face while defusing a potentially volatile situation between militarily strong regional states.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "d985d50c79c3f4eaf283",
+          "score": 0.45968,
+          "lexical_score": 0.22812,
+          "graph_score": 1.0,
+          "title": "Taputapuatea",
+          "text": "Taputapuatea is a commune of French Polynesia, an overseas territory of France in the Pacific Ocean. The commune of Taputapuatea is located on the island of Raiatea, in the administrative subdivision of the Leeward Islands, themselves part of the Society Islands. At the 2017 census it had a population of 4,792. In 2017 Taputapuatea along with Taputapuatea marae were inscribed on the UNESCO World Heritage Sites list.",
+          "graph_evidence": [
+            "shared_entity:the pacific ocean",
+            "shared_entity:the leeward islands",
+            "shared_entity:france",
+            "shared_entity:the society islands",
+            "shared_entity:the pacific ocean",
+            "shared_entity:the 2017 census",
+            "shared_entity:an overseas territory",
+            "shared_entity:french polynesia",
+            "shared_entity:the administrative subdivision",
+            "shared_entity:raiatea"
+          ]
+        },
+        {
+          "passage_id": "10f15226d7197ad67fb9",
+          "score": 0.33873,
+          "lexical_score": 0.48389,
+          "graph_score": 0.0,
+          "title": "Pangi Territory",
+          "text": "Pangi Territory is an administrative area in Maniema Province of the Democratic Republic of the Congo. The headquarters is the town of Pangi.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "3fc6f626d986118b6767",
+          "score": 0.33589,
+          "lexical_score": 0.19701,
+          "graph_score": 0.65993,
+          "title": "Moorea-Maiao",
+          "text": "Moorea-Maiao is a commune of French Polynesia, an overseas territory of France in the Pacific Ocean. The commune is in the administrative subdivision of the Windward Islands. At the 2017 census it had a population of 17,816.",
+          "graph_evidence": [
+            "shared_entity:the pacific ocean",
+            "shared_entity:france",
+            "shared_entity:the pacific ocean",
+            "shared_entity:the 2017 census",
+            "shared_entity:an overseas territory",
+            "shared_entity:french polynesia",
+            "shared_entity:the administrative subdivision"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "3hop1__103254_214799_259594",
+      "question": "What country had the Border Troops of the republic known for the literature of the country of citizenship of Ilona Richter?",
+      "recall_at_5": 0.6666666666666666,
+      "mrr": 1.0,
+      "retrieved": [
+        {
+          "passage_id": "935e4537803f0d252adf",
+          "score": 0.88347,
+          "lexical_score": 1.0,
+          "graph_score": 0.61158,
+          "title": "Ilona Richter",
+          "text": "Ilona Richter (later Dörfel, born 11 March 1953) is a German rower who competed for East Germany in the 1976 Summer Olympics and in the 1980 Summer Olympics, winning gold at both occasions.",
+          "graph_evidence": [
+            "shared_entity:east germany"
+          ]
+        },
+        {
+          "passage_id": "f3ffe1400143b0256755",
+          "score": 0.73634,
+          "lexical_score": 0.78981,
+          "graph_score": 0.61158,
+          "title": "Literature of East Germany",
+          "text": "East German literature is the literature produced in East Germany from the time of the Soviet occupation in 1945 until the end of the communist government in 1990. The literature of this period was heavily influenced by the concepts of socialist realism and controlled by the communist government. As a result, the literature of the German Democratic Republic (East Germany) was for decades dismissed as nothing more than \"Boy meet Tractor literature\", but its study is now considered a legitimate field. Because of its language, the literature is more accessible to western scholars and is considered to be one of the most reliable, if not the most reliable, sources about East Germany.",
+          "graph_evidence": [
+            "shared_entity:east germany"
+          ]
+        },
+        {
+          "passage_id": "56d84a0a35e33f7d7c62",
+          "score": 0.49316,
+          "lexical_score": 0.28156,
+          "graph_score": 0.98689,
+          "title": "C'est les vacances",
+          "text": "\"C'est les vacances\" (\"It's the Holidays/Vacations\") is a 2005 song recorded by the French singer Ilona Mitrecey. It was released as second single from her debut album, \"Un Monde parfait\", on 19 July 2005. It was a great success in several countries, including France, Belgium (Wallonia) and Switzerland, although it did not manage to reach number-one.",
+          "graph_evidence": [
+            "shared_entity:france",
+            "shared_entity:belgium"
+          ]
+        },
+        {
+          "passage_id": "57006c999a3c0e97b7f8",
+          "score": 0.44306,
+          "lexical_score": 0.20437,
+          "graph_score": 1.0,
+          "title": "Spain",
+          "text": "Spain (Spanish: España [esˈpaɲa] (listen)), officially the Kingdom of Spain (Spanish: Reino de España), is a country mostly located in Europe. Its continental European territory is situated on the Iberian Peninsula. Its territory also includes two archipelagoes: the Canary Islands off the coast of Africa, and the Balearic Islands in the Mediterranean Sea. The African enclaves of Ceuta, Melilla, and Peñón de Vélez de la Gomera make Spain the only European country to have a physical border with an African country (Morocco). Several small islands in the Alboran Sea are also part of Spanish territory. The country's mainland is bordered to the south and east by the Mediterranean Sea except for a small land boundary with Gibraltar; to the north and northeast by France, Andorra, and the Bay of Biscay; and to the west and northwest by Portugal and the Atlantic Ocean.",
+          "graph_evidence": [
+            "shared_entity:the atlantic ocean",
+            "shared_entity:france"
+          ]
+        },
+        {
+          "passage_id": "8278b3d03b8795c21240",
+          "score": 0.42587,
+          "lexical_score": 0.60838,
+          "graph_score": 0.0,
+          "title": "Republic of the Congo",
+          "text": "The Republic of the Congo (French: République du Congo), also known as the Congo - Brazzaville, the Congo Republic, West Congo, the former French Congo, or simply the Congo, is a country in Central Africa. It is bordered by five countries: Gabon and the Atlantic Ocean to the west; Cameroon to the northwest; the Central African Republic to the northeast; the Democratic Republic of the Congo to the east and south; and the Angolan exclave of Cabinda to the southwest.",
+          "graph_evidence": []
+        }
+      ]
+    },
+    {
+      "question_id": "2hop__109131_343058",
+      "question": "Who is the spouse of the creator of Absolutely Fabulous?",
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieved": [
+        {
+          "passage_id": "1ba82df03c1b610fbad3",
+          "score": 0.7,
+          "lexical_score": 1.0,
+          "graph_score": 0.0,
+          "title": "Absolutely Fabulous",
+          "text": "Absolutely Fabulous, also known as Ab Fab, is a former British television sitcom created by, written by and starring Jennifer Saunders. It is based on the 1990 \"French & Saunders\" sketch \"Modern Mother and Daughter\", created by Saunders and Dawn French.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "a12eb0c6ec0537d39895",
+          "score": 0.43767,
+          "lexical_score": 0.62525,
+          "graph_score": 0.0,
+          "title": "Mok Kwai-lan",
+          "text": "Mok Kwai-lan (; October 15, 1892 – November 3, 1982) was the fourth spouse of Lingnan martial arts grandmaster Wong Fei-hung.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "c520d6d82bfee66d3d9e",
+          "score": 0.33518,
+          "lexical_score": 0.47883,
+          "graph_score": 0.0,
+          "title": "Malliavin's absolute continuity lemma",
+          "text": "In mathematics — specifically, in measure theory — Malliavin's absolute continuity lemma is a result due to the French mathematician Paul Malliavin that plays a foundational rôle in the regularity (smoothness) theorems of the Malliavin calculus. Malliavin's lemma gives a sufficient condition for a finite Borel measure to be absolutely continuous with respect to Lebesgue measure.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "f3c0c363d982a5e79db6",
+          "score": 0.30005,
+          "lexical_score": 0.42864,
+          "graph_score": 0.0,
+          "title": "Jehovah's Witnesses",
+          "text": "Divorce is discouraged, and remarriage is forbidden unless a divorce is obtained on the grounds of adultery, which they refer to as \"a scriptural divorce\". If a divorce is obtained for any other reason, remarriage is considered adulterous unless the prior spouse has died or is since considered to have committed sexual immorality. Extreme physical abuse, willful non-support of one's family, and what the religion terms \"absolute endangerment of spirituality\" are considered grounds for legal separation.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "e1b8c1ce591b63470653",
+          "score": 0.3,
+          "lexical_score": 0.0,
+          "graph_score": 1.0,
+          "title": "Mirrorball (TV pilot)",
+          "text": "Mirrorball was a sitcom pilot in the United Kingdom directed by Adrian Edmondson and written by Jennifer Saunders. It originally aired on 22 December 2000.",
+          "graph_evidence": [
+            "shared_entity:jennifer saunders"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "2hop__389778_78303",
+      "question": "What was the cast member of Missing in Action's name in Walker, Texas Ranger?",
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieved": [
+        {
+          "passage_id": "751686954a15cdb1a2e4",
+          "score": 1.0,
+          "lexical_score": 1.0,
+          "graph_score": 1.0,
+          "title": "Missing in Action (film)",
+          "text": "Missing in Action is a 1984 American action film directed by Joseph Zito and starring Chuck Norris. It is set in the context of the Vietnam War POW/MIA issue. Colonel Braddock, who escaped a Vietnamese prisoner of war camp 10 years earlier, returns to Vietnam to find American soldiers listed as missing in action during the Vietnam War. The film was followed by a prequel, \"\" (1985), and a sequel, \"\" (1988).",
+          "graph_evidence": [
+            "shared_entity:chuck norris"
+          ]
+        },
+        {
+          "passage_id": "a8bb53e196b35cfbc005",
+          "score": 0.82381,
+          "lexical_score": 0.7483,
+          "graph_score": 1.0,
+          "title": "Walker, Texas Ranger",
+          "text": "Name Portrayed by Occupation Seasons Pilot 5 6 7 8 Cordell Walker Chuck Norris Texas Ranger Main James Trivette Clarence Gilyard Texas Ranger Main Alexandra Cahill Sheree J. Wilson Assistant District Attorney Main CD Parker Gailard Sartain former Texas Ranger, bar owner Main Noble Willingham Main Raymond Firewalker Floyd Westerman, Apesanahkwat Walker's uncle Main Guest Trent Malloy Jimmy Wlcek karate instructor, private detective Recurring Main Carlos Sandoval Marco Sanchez police detective Recurring Main Francis Gage Judson Mills Texas Ranger Main Sydney Cooke Nia Peeples Texas Ranger Main",
+          "graph_evidence": [
+            "shared_entity:chuck norris"
+          ]
+        },
+        {
+          "passage_id": "1bed144ec31dc9c4f904",
+          "score": 0.66959,
+          "lexical_score": 0.95655,
+          "graph_score": 0.0,
+          "title": "Scooby-Doo! The Mystery Begins",
+          "text": "The live - action cast features Robbie Amell as Fred, Kate Melton as Daphne, Hayley Kiyoko as Velma and Nick Palatas as Shaggy. Scooby - Doo was created using computer - generated imagery and his voice is provided by Frank Welker, who also was a cast member of the animated series, Scooby - Doo, Where Are You! and The Scooby - Doo Show, providing the voice of Fred.",
+          "graph_evidence": []
+        },
+        {
+          "passage_id": "20c5bb475322ca34bdd1",
+          "score": 0.57999,
+          "lexical_score": 0.42331,
+          "graph_score": 0.94558,
+          "title": "Sheree J. Wilson",
+          "text": "Sheree Julienne Wilson (born December 12, 1958) is an American actress, producer, businesswoman, and model. She is best known for her roles as April Stevens Ewing on the American primetime television series Dallas (1986 -- 1991) and as Alex Cahill - Walker on the television series Walker, Texas Ranger (1993 -- 2001).",
+          "graph_evidence": [
+            "shared_entity:texas ranger"
+          ]
+        },
+        {
+          "passage_id": "8013077caa685972c1d9",
+          "score": 0.54696,
+          "lexical_score": 0.37612,
+          "graph_score": 0.94558,
+          "title": "Wayne Dehart",
+          "text": "Wayne Dehart is an American actor of film and television who has been onscreen since the 1980s. He has appeared in such films as \"RoboCop 2\", \"A Perfect World\" and \"Looper\" and such television programs as \"Walker, Texas Ranger\", \"Prison Break\" and \"Breaking Bad\" (episode \"Blood Money\").",
+          "graph_evidence": [
+            "shared_entity:texas ranger"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "2hop__402530_774333",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieved": [
+        {
+          "passage_id": "03596d83d656f1a7d5f6",
+          "score": 0.96228,
+          "lexical_score": 1.0,
+          "graph_score": 0.87427,
+          "title": "Imperial, Texas",
+          "text": "Imperial is a census-designated place (CDP) in Pecos County, Texas, United States. The population was 278 at the 2010 census.",
+          "graph_evidence": [
+            "shared_entity:pecos county",
+            "shared_entity:texas"
+          ]
+        },
+        {
+          "passage_id": "ba3cf1a69d186938bc67",
+          "score": 0.53725,
+          "lexical_score": 0.39282,
+          "graph_score": 0.87427,
+          "title": "Lancaster Crossing",
+          "text": "Lancaster Crossing, also known as Indian Ford, Pecos Crossing, Solomon's Ford, Crossing of the Pecos, Crossing Rio Pecos, Ferry of the Pecos, and Ford Canyon Crossing, is an historic ford and ferry on the Pecos River, between Crockett County and Pecos County just southeast of Sheffield, Texas. Named after nearby Fort Lancaster, it is one of the few natural fords on the Pecos River, otherwise known for its steep banks that made crossing difficult.",
+          "graph_evidence": [
+            "shared_entity:pecos county",
+            "shared_entity:texas"
+          ]
+        },
+        {
+          "passage_id": "a07d2c6adb4d5abb9889",
+          "score": 0.52643,
+          "lexical_score": 0.32347,
+          "graph_score": 1.0,
+          "title": "Canada–United States border",
+          "text": "The Canada -- United States border (French: Frontière entre le Canada et les États - Unis), officially known as the International Boundary, is the longest international border in the world between two countries. It is shared between Canada and the United States, the second - and fourth - largest countries by area, respectively. The terrestrial boundary (including portions of maritime boundaries in the Great Lakes, and on the Atlantic, Pacific, and Arctic coasts) is 8,891 kilometres (5,525 mi) long, of which 2,475 kilometres (1,538 mi) is Canada's border with Alaska. Eight Canadian provinces and territories (Yukon, British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, and New Brunswick), and thirteen U.S. states (Alaska, Washington, Idaho, Montana, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine) are located along the border.",
+          "graph_evidence": [
+            "shared_entity:united states",
+            "shared_entity:alberta",
+            "shared_entity:british columbia"
+          ]
+        },
+        {
+          "passage_id": "2d517ea4a9e5c8c8b9ee",
+          "score": 0.52326,
+          "lexical_score": 0.31895,
+          "graph_score": 1.0,
+          "title": "Canada–United States border",
+          "text": "The Canada -- United States border (French: Frontière entre le Canada et les États - Unis), officially known as the International Boundary (French: Frontière internationale), is the longest international border in the world between two countries. It is shared between Canada and the United States, the second - and fourth - largest countries by area, respectively. The terrestrial boundary (including portions of maritime boundaries in the Great Lakes, and on the Atlantic, Pacific, and Arctic coasts) is 8,891 kilometres (5,525 mi) long, of which 2,475 kilometres (1,538 mi) is Canada's border with Alaska. Eight Canadian provinces and territories (Yukon, British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, and New Brunswick), and thirteen U.S. states (Alaska, Washington, Idaho, Montana, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine) are located along the border.",
+          "graph_evidence": [
+            "shared_entity:united states",
+            "shared_entity:alberta",
+            "shared_entity:british columbia"
+          ]
+        },
+        {
+          "passage_id": "50fd4afe1c0fa8807d89",
+          "score": 0.43786,
+          "lexical_score": 0.62552,
+          "graph_score": 0.0,
+          "title": "Oak Lawn, Illinois",
+          "text": "Oak Lawn is a suburb of Chicago, located southwest of the city. It shares borders with the city in two areas, but is surrounded mostly by other suburbs.",
+          "graph_evidence": []
+        }
+      ]
+    }
+  ]
+}

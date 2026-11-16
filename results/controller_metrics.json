@@ -1,0 +1,16 @@
+{
+  "pairwise": {
+    "mae": 0.2172356430777737,
+    "rmse": 0.28270353868524273,
+    "decisive_route_accuracy": 0.6474358974358975,
+    "training_examples": 500,
+    "tied_examples": 188
+  },
+  "sufficiency": {
+    "accuracy": 0.635,
+    "macro_f1": 0.6264834491234641
+  },
+  "pairwise_training_examples": 500,
+  "sufficiency_training_examples": 1000,
+  "pairwise_target": "graph_recall_at_5 - vector_recall_at_5"
+}

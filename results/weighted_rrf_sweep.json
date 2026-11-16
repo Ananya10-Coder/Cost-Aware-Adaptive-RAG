@@ -1,0 +1,409 @@
+{
+  "experiment": "Weighted Reciprocal Rank Fusion sweep",
+  "questions": 500,
+  "top_k": 5,
+  "vector_rank_depth": 5,
+  "graph_rank_depth": 5,
+  "bootstrap_samples": 10000,
+  "baselines": {
+    "Vector": {
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    "Graph": {
+      "recall_at_5": 0.642,
+      "mrr": 0.7718666666666668,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    "Hybrid": {
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    }
+  },
+  "configurations": [
+    {
+      "name": "k10_vector0.50",
+      "k": 10,
+      "vector_weight": 0.5,
+      "graph_weight": 0.5,
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    },
+    {
+      "name": "k20_vector0.50",
+      "k": 20,
+      "vector_weight": 0.5,
+      "graph_weight": 0.5,
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    },
+    {
+      "name": "k30_vector0.50",
+      "k": 30,
+      "vector_weight": 0.5,
+      "graph_weight": 0.5,
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    },
+    {
+      "name": "k60_vector0.50",
+      "k": 60,
+      "vector_weight": 0.5,
+      "graph_weight": 0.5,
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    },
+    {
+      "name": "k100_vector0.50",
+      "k": 100,
+      "vector_weight": 0.5,
+      "graph_weight": 0.5,
+      "recall_at_5": 0.7156666666666667,
+      "mrr": 0.8730666666666667,
+      "complete_evidence_rate": 0.414,
+      "mean_relevant_hits": 1.792
+    },
+    {
+      "name": "k10_vector1.00",
+      "k": 10,
+      "vector_weight": 1.0,
+      "graph_weight": 0.0,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k20_vector1.00",
+      "k": 20,
+      "vector_weight": 1.0,
+      "graph_weight": 0.0,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k30_vector1.00",
+      "k": 30,
+      "vector_weight": 1.0,
+      "graph_weight": 0.0,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k60_vector1.00",
+      "k": 60,
+      "vector_weight": 1.0,
+      "graph_weight": 0.0,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k100_vector1.00",
+      "k": 100,
+      "vector_weight": 1.0,
+      "graph_weight": 0.0,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8812000000000001,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k10_vector0.75",
+      "k": 10,
+      "vector_weight": 0.75,
+      "graph_weight": 0.25,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8771333333333334,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k10_vector0.60",
+      "k": 10,
+      "vector_weight": 0.6,
+      "graph_weight": 0.4,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8760333333333333,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k20_vector0.60",
+      "k": 20,
+      "vector_weight": 0.6,
+      "graph_weight": 0.4,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8760333333333333,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k30_vector0.60",
+      "k": 30,
+      "vector_weight": 0.6,
+      "graph_weight": 0.4,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8760333333333333,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k60_vector0.60",
+      "k": 60,
+      "vector_weight": 0.6,
+      "graph_weight": 0.4,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8760333333333333,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k100_vector0.60",
+      "k": 100,
+      "vector_weight": 0.6,
+      "graph_weight": 0.4,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8760333333333333,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k20_vector0.75",
+      "k": 20,
+      "vector_weight": 0.75,
+      "graph_weight": 0.25,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8753666666666665,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k30_vector0.75",
+      "k": 30,
+      "vector_weight": 0.75,
+      "graph_weight": 0.25,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8753666666666665,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k60_vector0.75",
+      "k": 60,
+      "vector_weight": 0.75,
+      "graph_weight": 0.25,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8753666666666665,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k100_vector0.75",
+      "k": 100,
+      "vector_weight": 0.75,
+      "graph_weight": 0.25,
+      "recall_at_5": 0.7023333333333333,
+      "mrr": 0.8753666666666665,
+      "complete_evidence_rate": 0.396,
+      "mean_relevant_hits": 1.75
+    },
+    {
+      "name": "k10_vector0.40",
+      "k": 10,
+      "vector_weight": 0.4,
+      "graph_weight": 0.6,
+      "recall_at_5": 0.642,
+      "mrr": 0.8430666666666666,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k20_vector0.40",
+      "k": 20,
+      "vector_weight": 0.4,
+      "graph_weight": 0.6,
+      "recall_at_5": 0.642,
+      "mrr": 0.8410666666666666,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k30_vector0.40",
+      "k": 30,
+      "vector_weight": 0.4,
+      "graph_weight": 0.6,
+      "recall_at_5": 0.642,
+      "mrr": 0.8410666666666666,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k60_vector0.40",
+      "k": 60,
+      "vector_weight": 0.4,
+      "graph_weight": 0.6,
+      "recall_at_5": 0.642,
+      "mrr": 0.8410666666666666,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k100_vector0.40",
+      "k": 100,
+      "vector_weight": 0.4,
+      "graph_weight": 0.6,
+      "recall_at_5": 0.642,
+      "mrr": 0.8410666666666666,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k10_vector0.25",
+      "k": 10,
+      "vector_weight": 0.25,
+      "graph_weight": 0.75,
+      "recall_at_5": 0.642,
+      "mrr": 0.8325666666666667,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k20_vector0.25",
+      "k": 20,
+      "vector_weight": 0.25,
+      "graph_weight": 0.75,
+      "recall_at_5": 0.642,
+      "mrr": 0.8322333333333334,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k30_vector0.25",
+      "k": 30,
+      "vector_weight": 0.25,
+      "graph_weight": 0.75,
+      "recall_at_5": 0.642,
+      "mrr": 0.8322333333333334,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k60_vector0.25",
+      "k": 60,
+      "vector_weight": 0.25,
+      "graph_weight": 0.75,
+      "recall_at_5": 0.642,
+      "mrr": 0.8322333333333334,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    },
+    {
+      "name": "k100_vector0.25",
+      "k": 100,
+      "vector_weight": 0.25,
+      "graph_weight": 0.75,
+      "recall_at_5": 0.642,
+      "mrr": 0.8322333333333334,
+      "complete_evidence_rate": 0.338,
+      "mean_relevant_hits": 1.602
+    }
+  ],
+  "best_configuration": {
+    "name": "k10_vector0.50",
+    "k": 10,
+    "vector_weight": 0.5,
+    "graph_weight": 0.5,
+    "recall_at_5": 0.7156666666666667,
+    "mrr": 0.8730666666666667,
+    "complete_evidence_rate": 0.414,
+    "mean_relevant_hits": 1.792
+  },
+  "best_configuration_bootstrap_vs_baselines": {
+    "Vector": {
+      "recall": {
+        "difference": 0.013333333333333332,
+        "ci_95_low": -0.005499999999999997,
+        "ci_95_high": 0.03183333333333333,
+        "significant_at_95": false
+      },
+      "mrr": {
+        "difference": -0.008133333333333333,
+        "ci_95_low": -0.02886833333333333,
+        "ci_95_high": 0.012533333333333334,
+        "significant_at_95": false
+      },
+      "complete_evidence": {
+        "difference": 0.018,
+        "ci_95_low": -0.018,
+        "ci_95_high": 0.052,
+        "significant_at_95": false
+      }
+    },
+    "Graph": {
+      "recall": {
+        "difference": 0.07366666666666667,
+        "ci_95_low": 0.05366666666666667,
+        "ci_95_high": 0.09366666666666666,
+        "significant_at_95": true
+      },
+      "mrr": {
+        "difference": 0.1012,
+        "ci_95_low": 0.07776583333333333,
+        "ci_95_high": 0.12463333333333333,
+        "significant_at_95": true
+      },
+      "complete_evidence": {
+        "difference": 0.076,
+        "ci_95_low": 0.04,
+        "ci_95_high": 0.112,
+        "significant_at_95": true
+      }
+    },
+    "Hybrid": {
+      "recall": {
+        "difference": 0.0,
+        "ci_95_low": 0.0,
+        "ci_95_high": 0.0,
+        "significant_at_95": false
+      },
+      "mrr": {
+        "difference": 0.0,
+        "ci_95_low": 0.0,
+        "ci_95_high": 0.0,
+        "significant_at_95": false
+      },
+      "complete_evidence": {
+        "difference": 0.0,
+        "ci_95_low": 0.0,
+        "ci_95_high": 0.0,
+        "significant_at_95": false
+      }
+    }
+  },
+  "complementarity": {
+    "vector_unique_support_hits": 224,
+    "graph_unique_support_hits": 150,
+    "shared_support_hits": 651,
+    "support_passages_missed_by_both": 271
+  },
+  "interpretation_note": "Exploratory tuning on the same 500-question evaluation sample. The best configuration requires independent held-out evaluation before confirmatory claims. Fusion only reorders the union of the two top-5 rankings; it does not retrieve deeper candidates."
+}

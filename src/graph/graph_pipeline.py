@@ -233,6 +233,9 @@ def calculate_bm25(query, candidate_ids, corpus):
     return scores
 
 
+_GRAPH_INDEX_CACHE = {}
+
+
 def retrieve(query, question, graph, corpus):
     candidates = [
         pid for pid in question["candidate_passage_ids"]
@@ -244,22 +247,30 @@ def retrieve(query, question, graph, corpus):
 
     candidate_set = set(candidates)
 
-    nodes = {
-        node["id"]: set(node["passage_ids"])
-        for node in graph["nodes"]
-    }
+    # Build these indexes once per loaded graph, not once per query.
+    global _GRAPH_INDEX_CACHE
 
-    passage_entities = {
-        pid: set(entities)
-        for pid, entities in graph["passage_entities"].items()
-    }
+    cache_key = id(graph)
 
-    # Build an entity-to-passage index.
-    entity_index = defaultdict(set)
+    if cache_key not in _GRAPH_INDEX_CACHE:
+        cached_passage_entities = {
+            pid: set(entities)
+            for pid, entities in graph["passage_entities"].items()
+        }
 
-    for pid, entities in passage_entities.items():
-        for entity in entities:
-            entity_index[entity].add(pid)
+        cached_entity_index = defaultdict(set)
+
+        for pid, entities in cached_passage_entities.items():
+            for entity in entities:
+                cached_entity_index[entity].add(pid)
+
+        _GRAPH_INDEX_CACHE.clear()
+        _GRAPH_INDEX_CACHE[cache_key] = (
+            cached_passage_entities,
+            cached_entity_index
+        )
+
+    passage_entities, entity_index = _GRAPH_INDEX_CACHE[cache_key]
 
     # Stage 1: lexical retrieval.
     lexical = calculate_bm25(query, candidates, corpus)

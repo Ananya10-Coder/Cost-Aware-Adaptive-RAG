@@ -1,0 +1,21 @@
+{
+  "method": "Logistic Regression",
+  "evaluation": "5-fold grouped cross-validation",
+  "examples": 150,
+  "unique_questions": 50,
+  "sufficient_examples": 89,
+  "insufficient_examples": 61,
+  "evaluated_examples": 150,
+  "accuracy": 0.64,
+  "balanced_accuracy": 0.6347393626818936,
+  "precision": 0.7108433734939759,
+  "recall": 0.6629213483146067,
+  "f1": 0.686046511627907,
+  "fold_accuracies": [
+    0.7333333333333333,
+    0.6666666666666666,
+    0.7333333333333333,
+    0.5333333333333333,
+    0.5333333333333333
+  ]
+}

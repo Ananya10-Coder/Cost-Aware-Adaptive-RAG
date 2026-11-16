@@ -1,0 +1,29 @@
+{
+  "vector": {
+    "mean_recall_at_5": 0.7023333333333331,
+    "mean_mrr": 0.8811999999999999,
+    "sufficient_questions": 198,
+    "total_questions": 500
+  },
+  "graph": {
+    "mean_recall_at_5": 0.642,
+    "mean_mrr": 0.771866666666666,
+    "sufficient_questions": 169,
+    "total_questions": 500
+  },
+  "hybrid": {
+    "mean_recall_at_5": 0.7156666666666666,
+    "mean_mrr": 0.8730666666666663,
+    "sufficient_questions": 207,
+    "total_questions": 500
+  },
+  "router_training": {
+    "total_questions": 500,
+    "usable_questions": 246,
+    "vector_labels": 157,
+    "graph_labels": 89,
+    "tied_questions": 254,
+    "target": "Recall@5 only",
+    "pairwise_target": "graph_utility - vector_utility"
+  }
+}
